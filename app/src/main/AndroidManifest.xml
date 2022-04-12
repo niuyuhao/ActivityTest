@@ -22,10 +22,10 @@
         </activity>
         <activity
             android:name=".SecondActivity"
+            android:launchMode="singleInstance"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.nyh.activitytest.ACTION_START" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.nyh.activitytest.MY_CATEGORY" />
             </intent-filter>
@@ -33,10 +33,10 @@
         <activity
             android:name=".FirstActivity"
             android:exported="true"
+            android:launchMode="singleTask"
             android:label="This is FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
