@@ -43,6 +43,6 @@ public class SecondActivity extends BaseActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("FirstActivity", "===========onDestroy==========");
+        Log.d("SecondActivity", "===========onDestroy==========");
     }
 }
